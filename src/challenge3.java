@@ -12,12 +12,12 @@ public class challenge3 {
 
 
     public static void dashes() {
-        System.out.print("+ ");
+        System.out.print("+");
         for (int dash = 1; dash <= 9; dash++)
         {
             System.out.print("-");
         }
-        System.out.println(" +");
+        System.out.println("+");
     }
 
 
@@ -28,13 +28,13 @@ public class challenge3 {
 
            space(line);
 
-            for (int slash = 0; slash <= line- 1; slash++) {
+            for (int slash = 0; slash <= line- 2; slash++) {
                 System.out.print("/");
             }
 
             System.out.print("*");
 
-            for (int slash = 0; slash <= line - 1; slash++) {
+            for (int slash = 0; slash <= line - 2; slash++) {
                 System.out.print("\\");
             }
             space(line);
@@ -65,13 +65,13 @@ public class challenge3 {
 
             space2(line);
 
-            for (int slash = 0; slash <= -line + size; slash++) {
+            for (int slash = 0; slash <= -line + size-1; slash++) {
                 System.out.print("\\");
             }
 
             System.out.print("*");
 
-            for (int slash = 0; slash <= -line+size ; slash++) {
+            for (int slash = 0; slash <= -line+size-1; slash++) {
                 System.out.print("/");
             }
 
